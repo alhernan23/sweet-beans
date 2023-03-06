@@ -2,10 +2,210 @@
 
 body{
     font-family: 'Zilla Slab', serif;
-        background-color: #1E1E1E;
-        color: whitesmoke;
+    background-color: #1E1E1E;
+    color: whitesmoke;
+    font-size: 20pt;
 }
-    
+
+section{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 20px;
+    grid-auto-flow: dense;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
 h1{
     font-family: 'Shrikhand', cursive;
+    font-size: 50pt;
+    line-height: 0px;
+}
+
+h2{
+    font-size: 25pt;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+.back{
+    grid-column: 2 / span 1;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.next{
+    grid-column: 9 / span 1;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.mainpage{
+    background-image: url(../img/folder_bgimg_main-01.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.maintitle{
+    padding-top: 450px;
+    grid-column: 2 / span 8;
+    text-align: left;
+}
+
+.submaintitle{
+    padding-top: 65px;
+    grid-column: 7 / span 3;
+    text-align: center;
+}
+
+#instruct{
+    grid-column: 4 / span 4;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#bigtitle{
+    font-size: 100px;
+    line-height: 0px;
+}
+
+#bigsubtitle{
+    font-size: 65px;
+    line-height: 0px;
+}
+
+#titlelink{
+    font-size: 45px;
+    line-height: 0px;
+    text-decoration: none;
+}
+
+.intro{
+    grid-column: 4 / span 6;
+    padding-top: 250px;
+}
+
+.entry{
+    grid-column: 2 / span 8;
+}
+
+.portrait{
+    grid-column: 2 / span 2;
+    padding-top: 250px;
+}
+
+.james{
+    background-image: url(../img/bgimg_forest-02.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sarah{
+    background-image: url(../img/bgimg_lav-03.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spencer{
+    background-image: url(../img/bgimg_navy-04.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jake{
+    background-image: url(../img/bgimg_turquoise-05.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sawyer{
+    background-image: url(../img/bgimg_green-06.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ally{
+    background-image: url(../img/bgimg_white-07.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1E1E1E;
+}
+
+.endpage{
+    background-image: url(img/folder_bgimg_end-08.png);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#james_eyes{
+    grid-column: 3 / span 2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#sarah_eyes{
+    grid-column: 5 / span 2;
+    padding-top: 50px;
+}
+
+#spencer_eyes{
+    grid-column: 7 / span 2;
+    padding-top: 50px;
+}
+
+#jake_eyes{
+    grid-column: 4 / span 2;
+    padding-bottom: 50px;
+}
+
+#sawyer_eyes{
+    grid-column: 6 / span 2;
 }
